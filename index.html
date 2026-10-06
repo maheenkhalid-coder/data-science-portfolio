@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maheen Khalid | Junior AI Engineer, Munich</title>
+<meta name="description" content="Junior AI engineer in Munich building RAG, multi-agent and ML applications. Live demos and code.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#top">Maheen Khalid</a>
+  <nav><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="hero-text">
+      <h1>I build AI apps that answer from real data, and show their sources.</h1>
+      <p>Junior AI engineer in Munich. Computer Engineering graduate and former software engineer. I work with LLMs, RAG, multi-agent workflows and classic ML, and I deploy everything as a live demo you can try.</p>
+      <p class="cta"><a class="btn" href="#work">See my projects</a><a class="btn ghost" href="https://github.com/maheenkhalid-coder" target="_blank" rel="noopener">GitHub</a></p>
+    </div>
+    <div class="chat" aria-label="Example of DocChat AI answering from a PDF">
+      <div class="bar">DocChat AI</div>
+      <p class="q">What is the late fee policy?</p>
+      <p class="a" id="typed" data-text="Answers come only from your uploaded PDF. If it is not in the document, the app says so."></p>
+      <p class="src" id="src">Sources: handbook.pdf, pages 12, 15</p>
+    </div>
+  </section>
+
+  <section id="work">
+    <h2>Projects</h2>
+    <div class="filters" role="group" aria-label="Filter projects">
+      <button class="on" data-f="all">All</button>
+      <button data-f="llm">LLM and agents</button>
+      <button data-f="ml">ML and NLP</button>
+      <button data-f="data">Analytics</button>
+    </div>
+    <div id="grid" class="grid"></div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About</h2>
+    <p>I started as a software engineer and moved into data and AI. The Google Advanced Data Analytics Certificate (June 2025) gave me my base in statistics, data wrangling and analysis. Since then I've focused on applied AI: retrieval pipelines (RAG), tool-calling agents, human-in-the-loop workflows and model deployment.</p>
+    <p>I live in Munich and work in English and German. I passed the Telc B1 German exam and I'm now preparing for B2, so I'm ready to grow into a German-speaking team.</p>
+    <p>I learn by building. Every project goes from a real problem to a working demo, and ends with a README that explains the design and the known limitations. My demos run on free tiers, so I add token budgets, daily caps and clear failure messages. Next, I'm going deeper into AI agents and making RAG answers more reliable.</p>
+    <div class="creds">
+      <a href="https://www.credly.com/badges/baeba45a-8735-4fc5-9134-ab28a724317d/public_url" target="_blank" rel="noopener">Google Advanced Data Analytics Certificate</a>
+      <a href="https://app.virtualbadge.io/62kf1saq/05bsyqcy/badge" target="_blank" rel="noopener">Telc B1 German, passed</a>
+    </div>
+    <ul class="skills">
+      <li>Python, SQL</li>
+      <li>LangChain, LangGraph</li>
+      <li>Groq, Whisper, Tavily</li>
+      <li>FAISS, ChromaDB</li>
+      <li>scikit-learn, TensorFlow</li>
+      <li>FastAPI, Streamlit</li>
+      <li>Power BI, Tableau</li>
+      <li>Git, Render</li>
+    </ul>
+  </section>
+</main>
+
+<footer id="contact">
+  <h2>Let's talk</h2>
+  <p>Open to junior AI roles in Munich.</p>
+  <p class="links">
+    <a href="mailto:maheenkhalid653@gmail.com">maheenkhalid653@gmail.com</a>
+    <a href="https://www.linkedin.com/in/maheen-khalid-38a0591b0/" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://github.com/maheenkhalid-coder" target="_blank" rel="noopener">GitHub</a>
+  </p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
