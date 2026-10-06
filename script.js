@@ -33,7 +33,7 @@ const projects = [
   { t: "ResearchFlow AI", c: "llm", big: 1, tag: "Multi-agent research system",
     d: "Turns a question into a source-backed report. Separate agents search the web, read pages, write the report and critique it.",
     s: ["LangChain", "Groq", "Tavily", "BeautifulSoup", "Streamlit"],
-    demo: "https://6jqraysprgcj47fpbxkfvf.streamlit.app/", repo: "ResearchFlow-AI" },
+    demo: "https://researchflow-assistant.streamlit.app/", repo: "ResearchFlow-AI" },
   { t: "MeetMind AI", c: "llm", tag: "Meeting and video assistant",
     d: "Transcribes YouTube links and audio/video files, then creates a summary, action items, decisions and open questions. Includes RAG chat over the transcript.",
     s: ["Whisper", "ChromaDB", "LangChain", "Groq", "yt-dlp"],
